@@ -114,7 +114,7 @@ is correct for "{self.cards_back[answer]}".\n')
         return inp
 
     def log(self):
-        """Save all inputs and outputs in file 'file_name' """
+        """Saves all inputs and outputs in file 'file_name' """
         file_name = self.input_and_log('File name:\n')
         with open(file_name, 'w') as file:
             print(self.buffer.getvalue(), file=file, flush=True)
