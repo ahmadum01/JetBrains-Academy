@@ -25,9 +25,7 @@ def checker(exp: str) -> str:
                 if not stack:
                     return False
                 stack.pop()
-        if not stack:
-            return True
-        return False
+        return not stack
 
     def check_operators(expression):
         for i in expression:

@@ -108,4 +108,5 @@ def regexp(reg, inp):
     return bool(start_end_operators(reg, inp))
 
 
-print(regexp(*input().split('|')))
+if __name__ == '__main__':
+    print(regexp(*input().split('|')))
