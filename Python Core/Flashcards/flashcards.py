@@ -156,28 +156,20 @@ def main():
     while True:  # Main loop
         command = cards.input_and_log('Input the action (add, remove, import, export, ask, exit, \
 log, hardest card, reset stats):\n')
-        # print(command)
-        if command == 'add':
-            cards.create_new_card()
-        elif command == 'remove':
-            cards.remove_card()
-        elif command == 'import':
-            cards.import_cards()
-        elif command == 'export':
-            cards.export_cards()
-        elif command == 'ask':
-            cards.ask()
-        elif command == 'log':
-            cards.log()
-        elif command == 'hardest card':
-            cards.hardest_card()
-        elif command == 'reset stats':
-            cards.reset_stats()
-        elif command == 'exit':
-            if args.export_to:
-                cards.export_cards(args.export_to)
-            cards.print_and_log('Bye bye!')
-            break
+        match command:
+            case 'add': cards.create_new_card()
+            case 'remove': cards.remove_card()
+            case 'import': cards.import_cards()
+            case 'export': cards.export_cards()
+            case 'ask': cards.ask()
+            case 'log': cards.log()
+            case 'hardest card': cards.hardest_card()
+            case 'reset stats': cards.reset_stats()
+            case 'exit':
+                if args.export_to:
+                    cards.export_cards(args.export_to)
+                cards.print_and_log('Bye bye!')
+                break
 
 
 if __name__ == '__main__':

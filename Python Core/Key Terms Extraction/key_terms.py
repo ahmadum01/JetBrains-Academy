@@ -91,8 +91,7 @@ def remove_stop_words(tokens: list) -> list:
 if __name__ == '__main__':
     tree = etree.parse('news.xml')  # reading xml file
     root = tree.getroot()
-    heads = []
-    texts = []
+    heads, texts = [], []
     for block in root[0].iter():
         match block.get("name"):
             case 'head': heads.append(block.text + ':')
