@@ -1,6 +1,6 @@
 # _JetBrains-Academy_
 _____________________
-
+:soccer: Тест
 ## Python Core
 * ### Challenging
   - [Key Terms Extraction](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/Key%20Terms%20Extraction)
