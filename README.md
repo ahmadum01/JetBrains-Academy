@@ -1,4 +1,4 @@
-# `_JetBrains-Academy_`
+# _`JetBrains-Academy`_
 _____________________
 
 ## `Python Core`
