@@ -1,9 +1,9 @@
 # _JetBrains-Academy_
 _____________________
-:soccer: Тест
+
 ## Python Core
 * ### Challenging
-  - [Key Terms Extraction](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/Key%20Terms%20Extraction)
+  :white_check_mark: [Key Terms Extraction](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/Key%20Terms%20Extraction)
   - [Smart Calculator](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/Smart%20Calculator)
   - [Flashcards](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/Flashcards)
   - [Easy Rider Bus Company](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/Easy%20Rider%20Bus)
