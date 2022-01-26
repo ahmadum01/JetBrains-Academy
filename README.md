@@ -35,7 +35,7 @@ _____________________
   - :black_square_button: Honest Calculator
   - :white_check_mark: [Zookeeper](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/Zookeeper)
 _______________________________
-  ## Natural Language Processing
+  ## `Natural Language Processing`
 * ### Challenging
   - :white_check_mark: [Key Terms Extraction](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/Key%20Terms%20Extraction)
   - :white_check_mark: [Text Generator](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/Text%20Generator)
@@ -60,7 +60,7 @@ _______________________________
   - :black_square_button: Honest Calculator
   - :white_check_mark: [Zookeeper](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/Zookeeper)
 _______________________________
-  ## Django Developer
+  ## `Django Developer`
 * ### Challenging
   - :black_square_button: Hypercar Service Center
   - :black_square_button: HyperNews portal
