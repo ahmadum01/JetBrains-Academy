@@ -2,7 +2,7 @@
 _____________________
 
 ## Python Core
-* ### Challenging
+* ### `Challenging`
   - :white_check_mark: [Key Terms Extraction](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/Key%20Terms%20Extraction)
   - :white_check_mark: [Smart Calculator](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/Smart%20Calculator)
   - :white_check_mark: [Flashcards](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/Flashcards)
