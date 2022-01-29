@@ -43,7 +43,7 @@ _______________________________
 * ### Hard
   - :white_check_mark: [University Admission Procedure](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/University%20Admission%20Procedure)
   - :white_check_mark: [Web Scraper](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/Web%20Scraper)
-  - :black_square_button: Data Analyses for Hospital
+  - :white_check_mark: [Data Analyses for Hospital](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Natural%20Language%20Processing/Data%20Analysis%20for%20Hospital)
 * ### Medium
   - :white_check_mark: [Bill Splitter](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/Bill%20Splitter)
   - :white_check_mark: [Dominoes](https://github.com/ahmadum01/JetBrains-Academy/tree/main/Python%20Core/Dominoes)
