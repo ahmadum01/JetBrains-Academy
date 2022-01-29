@@ -1,6 +1,15 @@
 # _`JetBrains-Academy`_
 _____________________
-
+## `Python for Beginners`
+* ### Challenging
+  - :white_check_mark: [Simple Tic-Tac-Toe](Python%20Core/Simple%20Tic-Tac-Toe)
+  - :white_check_mark: [Hangman](Python%20Core/Hangman)
+* ### Hard
+  - :white_check_mark: [Loan Calculator](Python%20Core/Loan%20Calculator)
+* ### Easy
+  - :white_check_mark: [Simple Chatty Bot](Python%20Core/Simple%20Chatty%20Bot)
+  - :white_check_mark: [Zookeeper](Python%20Core/Zookeeper)
+_______________________________
 ## `Python Core`
 * ### Challenging
   - :white_check_mark: [Key Terms Extraction](Python%20Core/Key%20Terms%20Extraction)
@@ -32,7 +41,7 @@ _____________________
   - :white_check_mark: [Simple Tic-Tac-Toe](Python%20Core/Simple%20Tic-Tac-Toe)
   - :white_check_mark: [Loan Calculator](Python%20Core/Loan%20Calculator)
   - :white_check_mark: [Coffee Machine](Python%20Core/Coffee%20Machine)
-  - :black_square_button: Honest Calculator
+  - :white_check_mark: [Honest Calculator](Natural%20Language%20Processing/Honest%20Calculator)
   - :white_check_mark: [Zookeeper](Python%20Core/Zookeeper)
 _______________________________
   ## `Natural Language Processing`
@@ -57,7 +66,7 @@ _______________________________
 * ### Easy
   - :black_square_button: Generating Randomness
   - :white_check_mark: [Simple Chatty Bot](Python%20Core/Simple%20Chatty%20Bot)
-  - :black_square_button: Honest Calculator
+  - :white_check_mark: [Honest Calculator](Natural%20Language%20Processing/Honest%20Calculator)
   - :white_check_mark: [Zookeeper](Python%20Core/Zookeeper)
 _______________________________
   ## `Django Developer`
@@ -77,5 +86,5 @@ _______________________________
   - :white_check_mark: [Simple Chatty Bot](Python%20Core/Simple%20Chatty%20Bot)
   - :white_check_mark: [Currency Converter](Python%20Core/Currency%20Converter)
   - :white_check_mark: [Coffee Machine](Python%20Core/Coffee%20Machine)
-  - :black_square_button: Honest Calculator
+  - :white_check_mark: [Honest Calculator](Natural%20Language%20Processing/Honest%20Calculator)
   - :white_check_mark: [Zookeeper](Python%20Core/Zookeeper)
