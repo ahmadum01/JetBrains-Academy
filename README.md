@@ -64,7 +64,7 @@ _______________________________
   - :white_check_mark: [Coffee Machine](Python%20Core/Coffee%20Machine)
   - :white_check_mark: [Rock-Paper-Scissors](Python%20Core/Rock-Paper-Scissors)
 * ### Easy
-  - :black_square_button: Generating Randomness
+  - :white_check_mark: [Generating Randomness](Natural%20Language%20Processing/Generating%20Randomness)
   - :white_check_mark: [Simple Chatty Bot](Python%20Core/Simple%20Chatty%20Bot)
   - :white_check_mark: [Honest Calculator](Natural%20Language%20Processing/Honest%20Calculator)
   - :white_check_mark: [Zookeeper](Python%20Core/Zookeeper)
