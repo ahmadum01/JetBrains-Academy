@@ -1,0 +1,19 @@
+<h2>Hyper news</h2>
+<form>
+    <a>Find</a>
+    <input type="text" name="q">
+    <button type="submit">Go</button>
+</form>
+
+{% for group in news_list %}
+<h4>{{group.date}}</h4>
+<ul>
+    {% for news in group.news %}
+    <li>
+        <a href="/news/{{news.link}}/">{{news.title}}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endfor %}
+
+<a href="/news/create/">Create</a>
