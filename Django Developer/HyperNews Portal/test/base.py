@@ -30,7 +30,7 @@ class HyperNewsTest(DjangoTest):
     def __init__(self, *args, **kwargs):
         current_dir = os.path.dirname(os.path.abspath(__file__))
         self.news_file_name = os.path.join(current_dir,
-                                           os.path.join('..', 'hypernews', 'news.json'))
+                                           os.path.join('../task', 'hypernews', 'news.json'))
         if not os.path.exists(os.path.split(self.news_file_name)[0]):
             os.makedirs(os.path.split(self.news_file_name)[0])
         os.environ['NEWS_JSON_PATH'] = self.news_file_name

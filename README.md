@@ -71,7 +71,7 @@ _______________________________
 _______________________________
   ## `Django Developer`
 * ### Challenging
-  - :black_square_button: Hypercar Service Center
+  - :white_check_mark: [Hypercar Service Center](Django%20Developer/Hypercar%20Service%20Center)
   - :white_check_mark: [HyperNews portal](Django%20Developer/HyperNews%20Portal)
   - :black_square_button: HyperJob Agency
 * ### Hard
