@@ -56,7 +56,6 @@ def ordered_list():
 
 def unordered_list():
     global result
-    global result
     while True:
         num_of_rows = int(input('Number of rows: '))
         if num_of_rows > 0:

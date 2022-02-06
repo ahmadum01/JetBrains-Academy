@@ -61,8 +61,7 @@ def game_loop():
 if __name__ == '__main__':
     words = ['python', 'java', 'kotlin', 'javascript']
     alphabet = string.ascii_lowercase
-    selected_word = ''
-    task = ''
+    selected_word, task = '', ''
     while True:
         command = input('Type "play" to play the game, "exit" to quit: ')
         match command:
