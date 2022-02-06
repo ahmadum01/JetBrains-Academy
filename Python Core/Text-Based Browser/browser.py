@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 import re
 from colorama import Fore
 
-args = sys.argv
-directory_name = args[1]
+ARGS = sys.argv
+directory_name = ARGS[1]
 if not os.access(directory_name, os.F_OK):  # If directory not exist
     os.mkdir(directory_name)
 os.chdir(directory_name)

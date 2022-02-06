@@ -42,7 +42,7 @@ def is_win(board, player) -> bool:
         return False
 
 
-def get_empty_cells(board) -> list[tuple[int, int]]:
+def get_empty_cells() -> list[tuple[int, int]]:
     """Return coordinates of empty board's cells"""
     result = []
     for i in range(len(game_field)):
@@ -54,7 +54,7 @@ def get_empty_cells(board) -> list[tuple[int, int]]:
 
 def computer_easy_move():
     """Easy AI level"""
-    coordinates = choice(get_empty_cells(game_field))
+    coordinates = choice(get_empty_cells())
     set_move(coordinates)
 
 
@@ -94,11 +94,11 @@ def computer_medium_move():
     computer_easy_move()
 
 
-def computer_hard_move(board):
+def computer_hard_move():
     """Medium AI level and Wrapper for minimax function"""
     def minimax(new_board, player):
         """The main minimax function"""
-        avail_cells = get_empty_cells(new_board)  # available cells
+        avail_cells = get_empty_cells()  # available cells
         # checks for the terminal states such as win, lose, and tie and returning a value accordingly
         if is_win(new_board, hu_player):
             return {'score': -10, 'index': (0, 0)}
@@ -153,8 +153,10 @@ def take_user_input():
 
 def game_loop(player1, player2):
     players = [player1, player2]
+    reset_field()
     print_game_field()
     switcher = 0
+
     while True:
         match players[switcher % 2]:
             case 'user':
@@ -168,16 +170,15 @@ def game_loop(player1, player2):
                 computer_medium_move()
             case 'hard':
                 print('Making move level "hard"')
-                computer_hard_move(game_field)
+                computer_hard_move()
         print_game_field()
         if is_win(game_field, get_turn(reverse=True)):
             print(f'{get_turn(reverse=True)} wins')
             break
-        if len(get_empty_cells(game_field)) == 0:
+        if len(get_empty_cells()) == 0:
             print('Draw')
             break
         switcher += 1
-    reset_field()
 
 
 def reset_field():
@@ -188,9 +189,7 @@ def reset_field():
 
 
 if __name__ == '__main__':
-    game_field = [[' ', ' ', ' '],
-                  [' ', ' ', ' '],
-                  [' ', ' ', ' ']]
+    game_field = ...
 
     mods = ['user', 'easy', 'medium', 'hard']
     while True:

@@ -6,7 +6,7 @@ while True:
     print('1 - simple operations with numbers 2-9')
     print('2 - integral squares of 11-29')
     level = input()
-    if level == '1' or level == '2':
+    if level in ['1', '2']:
         break
     print('Incorrect format.')
 

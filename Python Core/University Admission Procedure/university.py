@@ -73,17 +73,16 @@ if __name__ == '__main__':
         priorities_ = [dep1, dep2, dep3]
         applicants_.append(Applicant(name_, last_name_, [float(ex) for ex in exams_], float(special_), priorities_))
 
-    departments = ['Biotech', 'Chemistry', 'Engineering', 'Mathematics', 'Physics']
     department_and_exams = {'Biotech': [0, 1], 'Chemistry': [1], 'Engineering': [2, 3],
                             'Mathematics': [2], 'Physics': [0, 2]}
     departments_and_applicants = {}
 
     N = int(input())
     for priority_ in range(3):  # Data processing
-        for dep in departments:
+        for dep in department_and_exams.keys():
             number = N - len(departments_and_applicants.get(dep, ''))
-            departments_and_applicants[dep] = departments_and_applicants.get(dep, []) +\
-                                                applicants_.get_best_applicants(number, dep, priority_)
+            departments_and_applicants[dep] = departments_and_applicants.get(dep, []) + \
+                applicants_.get_best_applicants(number, dep, priority_)
     for dep in departments_and_applicants:
         sort_applicants_list(departments_and_applicants[dep])
 

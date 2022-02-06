@@ -1,4 +1,4 @@
-formats = ['plain', 'bold', 'italic', 'header', 'link', 'inline-code', 'new-line', 'ordered-list', 'unordered-list']
+FORMATS = ['plain', 'bold', 'italic', 'header', 'link', 'inline-code', 'new-line', 'ordered-list', 'unordered-list']
 result = ''
 
 
@@ -83,13 +83,13 @@ if __name__ == '__main__':
     while True:
         match input('Choose a formatter: '):
             case '!help':
-                print(f'Available formatters: {" ".join(formats)}')
+                print(f'Available formatters: {" ".join(FORMATS)}')
                 print('Special commands: !help !done')
             case '!done':
                 with open('output.md', 'w') as file:
                     file.write(result)
                 break
-            case format_type if format_type in formats:
+            case format_type if format_type in FORMATS:
                 get_function(format_type)()
                 print(result)
             case _:
