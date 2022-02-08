@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My profile</title>
+</head>
+<body>
+    <h1>My profile</h1>
+    {% if is_auth %}
+        {% if is_staff %}
+        <h3>Create new vacancy</h3>
+        <form action="/vacancy/new" method="post"> {% csrf_token %}
+            <label for="description1">Description:</label>
+            <input type="text" id="description1" name="description">
+            <input type="submit" value="OK">
+        </form>
+        {% else %}
+        <h3>Create new resume</h3>
+        <form action="/resume/new" method="post"> {% csrf_token %}
+            <label for="description2">Description:</label>
+            <input type="text" id="description2" name="description">
+            <input type="submit" value="OK">
+        </form>
+        {% endif %}
+    {% endif %}
+    <a href="/./">Back to Menu</a>
+</body>
+</html>

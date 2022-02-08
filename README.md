@@ -73,7 +73,7 @@ _______________________________
 * ### Challenging
   - :white_check_mark: [Hypercar Service Center](Django%20Developer/Hypercar%20Service%20Center)
   - :white_check_mark: [HyperNews portal](Django%20Developer/HyperNews%20Portal)
-  - :black_square_button: HyperJob Agency
+  - :white_check_mark: [HyperJob Agency](Django%20Developer/HyperJob%20Agency)
 * ### Hard
   - :white_check_mark: [Text-Based Browser](Python%20Core/Text-Based%20Browser)
   - :white_check_mark: [Multilingual Online Translator](Python%20Core/Multilingual%20Online%20Translator)

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vacancy</title>
+</head>
+<body>
+<h1>Vacancies</h1>
+{% for vacancy in data %}
+     <div>
+         <p>{{vacancy.author.username}}: {{vacancy.description}}</p>
+     </div>
+{% endfor %}
+</body>
+</html>
