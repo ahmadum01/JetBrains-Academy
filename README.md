@@ -1,13 +1,13 @@
 # _`JetBrains-Academy`_
 _____________________
 # _Courses_
-### 1. [**Python for Beginners**](#Python-fo-Beginners)
+### 1. [**Python for Beginners**](#Python-for-Beginners)
 ### 2. [**Python Core**](#Python-Core)
 ### 3. [**Natural Language Processing**](#Natural-Language-Processing)
 ### 4. [**Django Developer**](#Django-Developer)
 ### 5. [**Flask Developer**](#Flask-Developer)
 _____________________
-## Python for Beginners
+## `Python for Beginners`
 * ### Challenging
   - :white_check_mark: [Simple Tic-Tac-Toe](Python%20Core/Simple%20Tic-Tac-Toe)
   - :white_check_mark: [Hangman](Python%20Core/Hangman)
