@@ -1,4 +1,4 @@
-# _`JetBrains-Academy`_
+# [_`JetBrains-Academy`_](https://hyperskill.org/)
 _____________________
 # _Courses_
 ### 1. [**Python for Beginners**](#Python-for-Beginners)
