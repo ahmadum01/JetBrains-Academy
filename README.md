@@ -1,6 +1,13 @@
 # _`JetBrains-Academy`_
 _____________________
-## `Python for Beginners`
+# _Courses_
+### 1. [**Python for Beginners**](#`Python-Core`)
+### 2. [**Python Core**](#Python-Core)
+### 3. [**Natural Language Processing**]()
+### 4. [**Django Developer**]()
+### 5. [**Flask Developer**]()
+_____________________
+## Python-for-Beginners
 * ### Challenging
   - :white_check_mark: [Simple Tic-Tac-Toe](Python%20Core/Simple%20Tic-Tac-Toe)
   - :white_check_mark: [Hangman](Python%20Core/Hangman)
@@ -88,3 +95,17 @@ _______________________________
   - :white_check_mark: [Coffee Machine](Python%20Core/Coffee%20Machine)
   - :white_check_mark: [Honest Calculator](Natural%20Language%20Processing/Honest%20Calculator)
   - :white_check_mark: [Zookeeper](Python%20Core/Zookeeper)
+_______________________________
+## `Flask Developer`
+* ### Challenging
+  - :black_square_button: Web Calendar
+  - :black_square_button: Weather App
+* ### Hard
+  - :black_square_button: Memorization Tool
+* ### Easy
+  - :white_check_mark: [Simple Chatty Bot](Python%20Core/Simple%20Chatty%20Bot)
+  - :white_check_mark: [Currency Converter](Python%20Core/Currency%20Converter)
+  - :white_check_mark: [Honest Calculator](Natural%20Language%20Processing/Honest%20Calculator)
+  - :white_check_mark: [Loan Calculator](Python%20Core/Loan%20Calculator)
+  - :white_check_mark: [Zookeeper](Python%20Core/Zookeeper)
+_______________________________
