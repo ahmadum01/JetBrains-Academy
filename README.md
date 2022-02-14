@@ -101,7 +101,7 @@ _______________________________
   - :black_square_button: Web Calendar
   - :black_square_button: Weather App
 * ### Hard
-  - :black_square_button: Memorization Tool
+  - :white_check_mark: [Memorization Tool](Flask%20Developer/Memorization%20Tool)
 * ### Easy
   - :white_check_mark: [Simple Chatty Bot](Python%20Core/Simple%20Chatty%20Bot)
   - :white_check_mark: [Currency Converter](Python%20Core/Currency%20Converter)
