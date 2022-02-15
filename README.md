@@ -99,7 +99,7 @@ _______________________________
 _______________________________
 ## `Flask Developer`
 * ### Challenging
-  - :black_square_button: Web Calendar
+  - :white_check_mark: [Web Calendar](Flask%20Developer/Web%20Calendar)
   - :black_square_button: Weather App
 * ### Hard
   - :white_check_mark: [Memorization Tool](Flask%20Developer/Memorization%20Tool)
