@@ -110,3 +110,18 @@ _______________________________
   - :white_check_mark: [Loan Calculator](Python%20Core/Loan%20Calculator)
   - :white_check_mark: [Zookeeper](Python%20Core/Zookeeper)
 _______________________________
+  
+## `Introductory Machine Learning in Python`
+* ### Challenging
+  - :black_square_button: Logistic Regression from Scratch
+  - :white_check_mark: [Data Analyses for Hospital](Natural%20Language%20Processing/Data%20Analysis%20for%20Hospitals)
+  - :black_square_button: Classification of Handwritten Digits
+  - :white_check_mark: [Linear Regression from Scratch](Introductory%20Machine%20Learning%20in%20Python/Linear%20Regression%20from%20Scratch.py)
+* ### Medium
+  - :white_check_mark: [Generating Randomness](Natural%20Language%20Processing/Generating%20Randomness)
+  - :white_check_mark: [Dominoes](Python%20Core/Dominoes)
+  - :white_check_mark: [Coffee Machine](Python%20Core/Coffee%20Machine)
+* ### Easy
+  - :white_check_mark: [Simple Chatty Bot](Python%20Core/Simple%20Chatty%20Bot)
+  - :white_check_mark: [Zookeeper](Python%20Core/Zookeeper)
+_______________________________
