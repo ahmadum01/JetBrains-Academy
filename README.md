@@ -7,6 +7,7 @@ _____________________
 ### 3. [**Natural Language Processing**](#Natural-Language-Processing)
 ### 4. [**Django Developer**](#Django-Developer)
 ### 5. [**Flask Developer**](#Flask-Developer)
+### 6. [**Introductory Machine Learning in Python**](#Flask-Developer)
 _____________________
 ## `Python for Beginners`
 * ### Challenging
