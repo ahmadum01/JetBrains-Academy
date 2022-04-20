@@ -116,7 +116,7 @@ _______________________________
 * ### Challenging
   - :white_check_mark: [Logistic Regression from Scratch](Introductory%20Machine%20Learning%20in%20Python/Logistic%20Regression%20from%20Scratch)
   - :white_check_mark: [Data Analyses for Hospital](Natural%20Language%20Processing/Data%20Analysis%20for%20Hospitals)
-  - :black_square_button: Classification of Handwritten Digits
+  - :white_check_mark:  [Classification of Handwritten Digits](Introductory%20Machine%20Learning%20in%20Python/Classification%20of%20Handwritten%20Digits)
   - :white_check_mark: [Linear Regression from Scratch](Introductory%20Machine%20Learning%20in%20Python/Linear%20Regression%20from%20Scratch)
 * ### Medium
   - :white_check_mark: [Generating Randomness](Natural%20Language%20Processing/Generating%20Randomness)
