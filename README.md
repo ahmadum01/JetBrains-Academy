@@ -8,6 +8,7 @@ _____________________
 ### 4. [**Django Developer**](#Django-Developer)
 ### 5. [**Flask Developer**](#Flask-Developer)
 ### 6. [**Introductory Machine Learning in Python**](#Introductory-Machine-Learning-in-Python)
+### 7. [**Frontend Developer**](#Frontend-Developer)
 _____________________
 ## `Python for Beginners`
 * ### Challenging
@@ -126,3 +127,17 @@ _______________________________
   - :white_check_mark: [Simple Chatty Bot](Python%20Core/Simple%20Chatty%20Bot)
   - :white_check_mark: [Zookeeper](Python%20Core/Zookeeper)
 _______________________________
+## `Frontend Developer`
+* ### Challenging
+  - :black_square_button: Portfolio
+  - :black_square_button: Hyperskill cafe
+* ### Hard
+  - :black_square_button: To-Do List
+  - :black_square_button: Open Space
+  - :black_square_button: Virtual Piano
+* ### Medium
+  - :black_square_button: Magic Form
+  - :black_square_button: Flashcards
+
+* ### Easy
+  - :white_check_mark: [Case Converter](Frontend%20Developer/Case%20Converter)
