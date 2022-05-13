@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+*{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+body{
+    background: black;
+}
+
+
+h1{
+    color: white;
+    font-size: 6vmin;
+    width: 29vmin;
+    height: 7vmin;
+    margin: 2vmin auto 3vmin;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 83vmin;
+    height: 83vmin;
+    margin: 0 auto;
+}
+
+.card-container{
+    position: relative;
+    margin: 0.5vmin;
+    perspective: 1000px;
+}
+
+.card{
+    position: relative;
+    transition: all 0.5s linear;
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+}
+
+.card-container:hover .card{
+    transform: rotateX(180deg);
+}
+
+
+.back, .front{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vmin;
+    font-weight: bold;
+    border-radius: 2vmin;
+    position: absolute;
+
+}
+.front{
+    z-index: 2;
+    backface-visibility: hidden;
+    background: aquamarine;
+}
+.back{
+    z-index: 1;
+    transform: rotateX(180deg);
+    background: #0dff35;
+}
+
+
+
+
+

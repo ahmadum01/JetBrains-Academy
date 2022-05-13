@@ -131,13 +131,18 @@ _______________________________
 * ### Challenging
   - :black_square_button: Portfolio
   - :black_square_button: Hyperskill cafe
+  - :black_square_button: Open Space
 * ### Hard
   - :black_square_button: To-Do List
-  - :black_square_button: Open Space
-  - :black_square_button: Virtual Piano
+  - :white_check_mark: [Virtual Piano](Frontend%20Developer/Virtual%20Piano)
+  - :white_check_mark: [Magic Form](Frontend%20Developer/Magic%20Form)
+  - :white_check_mark: [Flashcards](Frontend%20Developer/Flashcards)
 * ### Medium
-  - :black_square_button: Magic Form
-  - :black_square_button: Flashcards
-
-* ### Easy
+  - :white_check_mark: [Coffee Machine](Frontend%20Developer/Coffee%20Machine)
   - :white_check_mark: [Case Converter](Frontend%20Developer/Case%20Converter)
+* ### Easy
+  - :white_check_mark: [Zookeeper](Frontend%20Developer/Zookeeper)
+  - :white_check_mark: [Simple Chatty Bot](Frontend%20Developer/Simple%20Chatty%20Bot)
+  - :white_check_mark: [Simple Currency Converter](Frontend%20Developer/Simple%20Currency%20Converter)
+
+    

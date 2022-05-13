@@ -1,0 +1,59 @@
+body {
+    background: yellow;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.key {
+    display:inline-block;
+    width:100px;
+    height:300px;
+    background: white;
+    line-height: 500px;
+    text-align: center;
+    margin-left: -4px;
+    border: outset 5px;
+    font-size: 30px;
+}
+.little-key{
+    display:inline-block;
+    width:70px;
+    height:150px;
+    background: black;
+    color: white;
+    line-height: 250px;
+    text-align: center;
+    border: outset 5px;
+    font-size: 30px;
+    position: absolute;
+}
+.W{
+    left: 61px;
+}
+.E{
+    left: 172px;
+}
+.T{
+    left: 390px;
+}
+.Y{
+    left: 500px;
+}
+.U{
+    left: 610px;
+}
+
+
+.container{
+    width: content-box;
+    height: content-box;
+    margin: auto;
+}
+
+.black-keys{
+    width: 500px;
+    position: relative;
+    /*top: 150px;*/
+}

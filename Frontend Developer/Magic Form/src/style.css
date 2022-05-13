@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(246, 248, 255, 255);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    background: black;
+    color: white;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+#forms-container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+}
+
+.form-label {
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+#submit-button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background: black;
+    color: white;
+}
+
+#button-container{
+    margin-top: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.no-underline{
+    text-decoration: none;
+    color: white;
+}
+
+.submit-history-card{
+    background: white;
+    border: solid 1px gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.content {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.label-text{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.data-text{
+    font-size: 22px;
+}
+
+.text {
+    margin-left: 5px;
+}
+
+.delete-button{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 10px;
+}
