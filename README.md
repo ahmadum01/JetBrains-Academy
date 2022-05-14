@@ -133,7 +133,7 @@ _______________________________
   - :black_square_button: Hyperskill cafe
   - :black_square_button: Open Space
 * ### Hard
-  - :black_square_button: To-Do List
+  - :white_check_mark: [To-Do List](Frontend%20Developer/To-Do%20List)
   - :white_check_mark: [Virtual Piano](Frontend%20Developer/Virtual%20Piano)
   - :white_check_mark: [Magic Form](Frontend%20Developer/Magic%20Form)
   - :white_check_mark: [Flashcards](Frontend%20Developer/Flashcards)
